@@ -168,7 +168,6 @@
         console.log(filelist);
       }
     },
-
   }
 </script>
 <style scoped>
