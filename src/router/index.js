@@ -4,6 +4,7 @@ import Home from '../components/home'
 import Update from '../components/update'
 import Notice from '../components/notice'
 import UpdateModal from '../components/updateModal.vue'
+import InputBox from '../components/inputBox.vue'
 
 Vue.use(Router);
 
@@ -35,5 +36,10 @@ export default new Router({
       name: 'Notice',
       component: Notice
     },
+    {
+      path: '/inputBox',
+      name: 'InputBox',
+      component: InputBox
+    }
   ]
 })
