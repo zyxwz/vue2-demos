@@ -5,6 +5,7 @@ import Update from '../components/update'
 import Notice from '../components/notice'
 import UpdateModal from '../components/updateModal.vue'
 import InputBox from '../components/inputBox.vue'
+import CellSwiperTest from '../components/cellSwiperTest.vue'
 
 Vue.use(Router);
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/inputBox',
       name: 'InputBox',
       component: InputBox
+    },
+    {
+      path: '/cellSwiperTest',
+      name: 'cellSwiperTest',
+      component: CellSwiperTest
     }
   ]
 })
