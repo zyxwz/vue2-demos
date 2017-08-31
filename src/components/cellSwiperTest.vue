@@ -51,7 +51,7 @@
           }
           // 上下滑动
           if(swipeY && Math.abs(X - x) - Math.abs(Y - y) < 0) {
-            console.log("上下滑动");
+            console.log("上下滑动啦啦啦");
             swipeX = false;
           }
         });
@@ -61,6 +61,7 @@
 </script>
 
 <style lang="css">
+
   *{margin:0;padding:0;}
   body{font-size:28px;}
   li{
