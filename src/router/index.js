@@ -6,6 +6,7 @@ import Notice from '../components/notice'
 import UpdateModal from '../components/updateModal.vue'
 import InputBox from '../components/inputBox.vue'
 import CellSwiperTest from '../components/cellSwiperTest.vue'
+import WaveCss from '../components/waveCss.vue'
 
 Vue.use(Router);
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/cellSwiperTest',
       name: 'cellSwiperTest',
       component: CellSwiperTest
+    },
+    {
+      path: '/waveCss',
+      name: 'waveCss',
+      component: WaveCss
     }
   ]
 })
